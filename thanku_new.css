@@ -1,0 +1,196 @@
+.svg {
+    margin: auto;
+  }
+  .checkmark {
+    /* position: absolute; */
+    width: 125px;
+    height: 125px;
+    /* margin-top: 7%; */
+    border-radius: 50%;
+    /* margin-left: 5%; */
+    left: 41%;
+    margin-bottom: 4.5vh;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #7ac142;
+    animation: fill 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+  }
+  .checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #eaf1f1;
+    fill: #00004d;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+  }
+  .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+  }
+  
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes scale {
+  
+    0%,
+    100% {
+      transform: none;
+    }
+  
+    50% {
+      transform: scale3d(1.1, 1.1, 1);
+    }
+  }
+  
+  @keyframes fill {
+    100% {
+      box-shadow: inset 0px 0px 0px 30px #7ac142;
+    }
+  }
+   body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+ body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: rgb(8, 27, 160); 
+    background: radial-gradient(circle, rgba(8, 27, 160, 1) 0%, rgba(1, 4, 25, 1) 100%);
+   background-attachment: fixed;
+   background-size: cover;
+   overflow-x: hidden;   
+   color: white;
+   font-family: 'Poppins', sans-serif;
+ }
+ .navbar-brand{
+    padding: 0;
+ }
+ #navbar{
+background: rgba(0,0,0,0.5);
+font-family: "Segoe UI",Roboto,Arial,sans-serif;
+height: 7.5vh;
+}
+
+ #quizlogo{
+  height: 8vh;
+  width: 5vw;
+  margin-left: -0.8vw;
+  padding:0vw;
+
+ }
+ #credenzlogo{
+    height: 6.3vh;
+    width: 7vw;
+    margin-left: 0vw;
+    /* padding-top:1vh; */
+  
+  }
+  #wb{
+      color: white;
+      font-size: 3vh;
+    }  
+.main-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22vh;
+}
+h1,h3{
+    font-size: 7vh;
+}
+h1{
+    padding-bottom: 2vh;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 70vw; */
+    font-size: 3vh;
+    margin-left: 41vw;
+}
+footer{
+    background: rgba(0,0,0,0.5);
+    height: 7vh;
+}
+
+.ft{
+    /* background: rgba(0,0,0,0.7); */
+    font-size: 3vh;
+    padding-top: 1.5vh;
+  }
+@media screen and (min-width: 1000px) and (max-width: 1100px){
+    h1,h3{
+        font-size: 5.3vh;
+    }
+    .heading{
+        margin-left: 37vw;
+    }
+}
+@media screen and (min-width: 1101px) and (max-width: 1270px){
+    h1,h3{
+        font-size: 6vh;
+    }
+    .heading{
+        margin-left: 37vw;
+    }
+}
+@media screen and (width: 1920px){
+    h1,h3{
+        font-size: 6.7vh;
+    }
+    .checkmark{
+        height: 175px;
+        width: 175px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1099px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px){
+    #credenzlogo{
+        width: 9.7vw;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1299px){
+    #credenzlogo{
+        width: 9.9vw;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1399px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 1499px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+}
+@media screen and (min-width: 1500px) and (max-width: 1599px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1699px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+}
+@media screen and (min-width: 1700px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+}
