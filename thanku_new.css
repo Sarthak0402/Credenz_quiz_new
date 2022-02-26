@@ -140,7 +140,74 @@ footer{
 @media screen and (min-width: 1101px) and (max-width: 1270px){
     h1,h3{
         font-size: 6vh;
+    }@media screen and (min-width: 1000px) and (max-width: 1099px){
+    #credenzlogo{
+        width: 9.5vw;
     }
+    .checkmark{
+        height: 90px;
+        width: 90px;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px){
+    #credenzlogo{
+        width: 9.7vw;
+    }
+    .checkmark{
+        height: 95px;
+        width: 95px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1299px){
+    #credenzlogo{
+        width: 9.9vw;
+    }
+    .checkmark{
+        height: 100px;
+        width: 100px;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1399px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+    .checkmark{
+        height: 105px;
+        width: 105px;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 1499px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+    .checkmark{
+        height: 110px;
+        width: 110px;
+    }
+}
+@media screen and (min-width: 1500px) and (max-width: 1599px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1699px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+    .checkmark{
+        height: 135px;
+        width: 135px;
+    }
+}
+@media screen and (min-width: 1700px){
+    #credenzlogo{
+        width: 9.5vw;
+    }
+    .checkmark{
+        height: 145px;
+        width: 145px;
+    }
+}
     .heading{
         margin-left: 37vw;
     }
@@ -158,10 +225,18 @@ footer{
     #credenzlogo{
         width: 9.5vw;
     }
+    .checkmark{
+        height: 90px;
+        width: 90px;
+    }
 }
 @media screen and (min-width: 1100px) and (max-width: 1200px){
     #credenzlogo{
         width: 9.7vw;
+    }
+    .checkmark{
+        height: 95px;
+        width: 95px;
     }
 }
 @media screen and (min-width: 1200px) and (max-width: 1299px){
@@ -169,18 +244,26 @@ footer{
         width: 9.9vw;
     }
     .checkmark{
-        height: 1vh;
-        width: 1vw;
+        height: 100px;
+        width: 100px;
     }
 }
 @media screen and (min-width: 1300px) and (max-width: 1399px){
     #credenzlogo{
         width: 9.5vw;
     }
+    .checkmark{
+        height: 105px;
+        width: 105px;
+    }
 }
 @media screen and (min-width: 1400px) and (max-width: 1499px){
     #credenzlogo{
         width: 9.5vw;
+    }
+    .checkmark{
+        height: 110px;
+        width: 110px;
     }
 }
 @media screen and (min-width: 1500px) and (max-width: 1599px){
@@ -192,9 +275,17 @@ footer{
     #credenzlogo{
         width: 9.5vw;
     }
+    .checkmark{
+        height: 135px;
+        width: 135px;
+    }
 }
 @media screen and (min-width: 1700px){
     #credenzlogo{
         width: 9.5vw;
+    }
+    .checkmark{
+        height: 145px;
+        width: 145px;
     }
 }
