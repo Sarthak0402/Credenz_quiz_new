@@ -168,6 +168,10 @@ footer{
     #credenzlogo{
         width: 9.9vw;
     }
+    .checkmark{
+        height: 5vh;
+        width: 5vw;
+    }
 }
 @media screen and (min-width: 1300px) and (max-width: 1399px){
     #credenzlogo{
