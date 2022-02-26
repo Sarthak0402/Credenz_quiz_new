@@ -67,6 +67,7 @@ img{
  background: radial-gradient(circle, rgba(8, 27, 160, 1) 0%, rgba(1, 4, 25, 1) 100%);
 }
 .col1{
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -143,7 +144,7 @@ font-size: 4.5vh;
 color: white;
 border-bottom: 2px solid white;
 }
-@media screen and (max-width: 1001px){
+@media(max-width: 1001px){
 .navbar{
   display: none;
 }
@@ -165,16 +166,59 @@ body{
 .senior-team-text-col{
   display:none;
   }
-  .error{
-    color:white;
-    text-align: center;
-    margin: 476px 33px;
-    
-    font-size: 67px;
-  }
 
+.col1{
+  display:none;
+}
+.col2{
+  display:none;
+}
+.error{
+  color:white;
+  text-align: center;
+  margin: 476px 33px;
+  
+  font-size: 67px;
 }
 
+
+}
+@media (min-width:1000px){
+  
+  .name{
+   font-size: 2.8vh;
+  }
+  .error{
+  display: none;
+  }
+  .our-team-col{
+    margin-left: 22vh;
+    font-size: 3.5vh;
+  }
+  
+  #credenzlogo{
+    height: 6.5vh;
+    
+
+  }
+  #n{
+    font-size: 2.6vh;
+  }
+  
+  }
+  
+  @media(min-width: 1200px){
+    #wb{
+    font-size: 3vh;
+   } 
+   #icon-left-margin{
+    margin-left: 0.7vw;
+   }
+   .our-team-col{
+     margin-left: 24vh;
+   }
+   
+   }
 
 
 @media(min-width: 1300px){
@@ -200,21 +244,37 @@ body{
   }
   
   }
-@media(min-width: 1500px){
-#credenzlogo{
-height: 7vh;
-width: 10vw;
-}
-#wb{
- font-size: 2.8vh;
-} 
-#icon-left-margin{
- margin-left: 1vw;
-}
-.our-team-col{  
-  font-size: 3.5vh;  
+  @media screen and (min-width: 1480px) and (max-width: 1580px){
+    #credenzlogo{
+      width: 9vw;
   }
-}
+  }
+  @media(min-width: 1500px){
+    #credenzlogo{
+    height: 7vh;
+    width: 10vw;
+    }
+    #wb{
+     font-size: 2.8vh;
+    } 
+    #icon-left-margin{
+     margin-left: 1vw;
+    }
+    .our-team-col{  
+      font-size: 3.5vh;  
+      }
+    }
+    @media screen and (min-width: 1581px) and (max-width: 1680px){
+      #credenzlogo{
+        width: 9.5vw;
+    }
+    }
+  @media screen and (min-width: 1681px) and (max-width: 1780px){
+    #credenzlogo{
+      width: 9.5vw;
+  }
+  }
+
 
 @media(min-width: 1700px){
 .name{
@@ -226,69 +286,15 @@ width: 10vw;
 #wb{
 font-size: 2.6vh;
 }
-@media (min-width:1000px){
-  .senior-team-text-col{
-  font-size: 3.6vh;
-  }
-  .junior-team-text-col{
-  font-size: 3.8vh;
-  }
-  .name{
-   font-size: 2.8vh;
-  }
-  .error{
-  display: none;
-  }
-  .our-team-col{
-    margin-left: 22vh;
-    font-size: 3.5vh;
-  }
-  #wb{
-    font-size: 3vh;
-  }
-  #credenzlogo{
-    height: 6.5vh;
-    width:7.4vw;
-
-  }
-  #n{
-    font-size: 2.6
-    vh;
-  }
   
-  }
-  @media screen and (min-width: 1480px) and (max-width: 1580px){
-    #credenzlogo{
-      width: 9vw;
-  }
-  }
-  @media screen and (min-width: 1581px) and (max-width: 1680px){
-    #credenzlogo{
-      width: 9.5vw;
-  }
-  }
-  @media screen and (min-width: 1681px) and (max-width: 1780px){
-    #credenzlogo{
-      width: 9.5vw;
-  }
-  }
+ 
+  
   @media screen and (min-width: 1781px) and (max-width: 1880px){
     #credenzlogo{
       width: 9.5vw;
   }
   }
-  @media(min-width: 1200px){
-    #wb{
-    font-size: 3vh;
-   } 
-   #icon-left-margin{
-    margin-left: 0.7vw;
-   }
-   .our-team-col{
-     margin-left: 24vh;
-   }
-   
-   }
+  
    @media(min-width: 1900px){
     #icon-left-margin{
    margin-left: 1.7vw;
@@ -311,6 +317,7 @@ font-size: 2.6vh;
     justify-content: center;
     /* align-items: center; */
     margin-top: 2vh;
+    
   
   }
   .senior-team-text-row{
@@ -326,13 +333,55 @@ font-size: 2.6vh;
     justify-content: center;
     align-items: center;
   }
-  #car{
+  #car,#car1{
     margin-left: 2.3vh;
     width:40vh;
   }
+  
+
 .junior-team-text-col{
   width:12vw;
 }
+@media(min-width: 1000px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.3vh;
+  }
+  .name{
+    font-size: 2.3vh;
+  }
+  #wb{
+    font-size: 2.2vh;
+  }
+  #credenzlogo{
+    width:9vw;
+  }
+  
+}
+@media(min-width: 1414px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.7vh;
+  }
+  #wb{
+    font-size: 2.6vh;
+  }
+  
 
+}
+@media(min-width: 1459px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.6vh;
+  }
   
+
+}
+@media(min-width: 1562px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.4vh;
+  }
   
+
+}

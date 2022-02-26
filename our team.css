@@ -142,7 +142,7 @@ font-size: 4.5vh;
 color: white;
 border-bottom: 2px solid white;
 }
-@media screen and (max-width: 1001px){
+@media(max-width: 1001px){
 .navbar{
   display: none;
 }
@@ -163,6 +163,12 @@ body{
 }
 .senior-team-text-col{
   display:none;
+  }
+  .col1{
+    display:none;
+  }
+  .col2{
+    display:none;
   }
   .error{
     color:white;
@@ -370,6 +376,49 @@ font-size: 2.6vh;
     justify-content: center;
     align-items: center;
   }
+  @media(min-width: 1000px){
+    .junior-team-text-col,
+    .senior-team-text-col{
+      font-size: 3.3vh;
+    }
+    .name{
+      font-size: 2.4vh;
+    }
+    #wb{
+      font-size: 2vh;
+    }
+    #credenzlogo{
+      width:9vw;
+    }
+    
+  }
+  @media(min-width: 1200px){
+    #wb{
+      font-size:2.5vh ;
+    }
+  }
+  @media(min-width: 1414px){
+    .junior-team-text-col,
+    .senior-team-text-col{
+      font-size: 3.7vh;
+    }
+    #wb{
+      font-size: 2.6vh;
+    }
+    }
+  @media(min-width: 1459px){
+    .junior-team-text-col,
+    .senior-team-text-col{
+      font-size: 3.6vh;
+    }
+    
   
+  }
+  @media(min-width: 1562px){
+    .junior-team-text-col,
+    .senior-team-text-col{
+      font-size: 3.4vh;
+    }
+    
   
-  
+  }
