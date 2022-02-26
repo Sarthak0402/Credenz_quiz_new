@@ -415,11 +415,11 @@ footer{
 }
 @media screen and (min-width: 1200px) and (max-width: 1260px){
     .one_tf{
-        margin-top: 2vh;
+        margin-top: 0.8vh;
         margin-left: -1vw;
     }
     .questionss{
-        margin-top: 3vh;
+        margin-top: 2vh;
         font-size: 4vh;
     }
     .input{
@@ -438,7 +438,7 @@ footer{
 }
 @media screen and (min-width: 1261px) and (max-width: 1360px){
     .one_tf{
-        margin-top: 2.5vh;
+        margin-top: 1.3vh;
         margin-left: -0.5vw;
     }
     .questionss{
