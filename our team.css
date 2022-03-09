@@ -382,7 +382,7 @@ font-size: 2.6vh;
       font-size: 3.3vh;
     }
     .name{
-      font-size: 2.4vh;
+      font-size: 2.5vh;
     }
     #wb{
       font-size: 2vh;
@@ -391,6 +391,21 @@ font-size: 2.6vh;
       width:9vw;
     }
     
+  }
+  @media(min-width: 1029px){
+    #wb{
+      font-size:2.1vh ;
+    }
+  }
+  @media(min-width: 1039px){
+    #wb{
+      font-size:2.2vh ;
+    }
+  }
+  @media(min-width: 1099px){
+    #wb{
+      font-size:2.3vh ;
+    }
   }
   @media(min-width: 1200px){
     #wb{
@@ -419,6 +434,7 @@ font-size: 2.6vh;
     .senior-team-text-col{
       font-size: 3.4vh;
     }
-    
-  
+  }
+  .col2{
+    padding-bottom: 5vh;
   }

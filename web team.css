@@ -281,11 +281,11 @@ body{
  font-size: 3.3vh;
 
 }
-}
+
 
 #wb{
 font-size: 2.6vh;
-}
+}}
   
  
   
@@ -358,30 +358,144 @@ font-size: 2.6vh;
   }
   
 }
-@media(min-width: 1414px){
+
+@media(min-width: 1413px){
   .junior-team-text-col,
   .senior-team-text-col{
     font-size: 3.7vh;
   }
   #wb{
     font-size: 2.6vh;
+  }}
+  @media(min-width: 1429px){
+    .junior-team-text-col,
+    .senior-team-text-col{
+      font-size: 3.5vh;
+    }
+    #wb{
+      font-size: 2.8vh;
+    }
+
+}
+@media(min-width: 1434px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3vh;
+  }
+  #wb{
+    font-size: 2.4vh;
+  }
+  .name{
+    font-size: 2.1vh;
+  }
+
+}
+@media(min-width: 1449px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.5vh;
+  }
+  #wb{
+    font-size: 2.9vh;
+  }
+  .name{
+    font-size:2.7vh;
+  }
+}
+@media(min-width: 1454px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.1vh;
+  }
+  #wb{
+    font-size: 2.4vh;
+  }
+  .name{
+    font-size: 2.1vh;
   }
   
 
 }
-@media(min-width: 1459px){
+@media(min-width: 1458px){
   .junior-team-text-col,
   .senior-team-text-col{
     font-size: 3.6vh;
   }
-  
-
+  #wb{
+    font-size: 2.8vh;
+  }
+  .name{
+    font-size: 2.5vh;
+  }
 }
+@media(min-width: 1484px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.1vh;
+  }
+  #wb{
+    font-size: 2.5vh;
+  }
+  .name{
+    font-size: 2.2vh;
+  }
+}
+@media(min-width: 1489px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.2vh;
+  }
+  #wb{
+    font-size: 2.6vh;
+  }
+  .name{
+    font-size: 2.5vh;
+  }
+}
+@media(min-width: 1494px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.2vh;
+  }
+  #wb{
+    font-size: 2.5vh;
+  }
+  .name{
+    font-size: 2.2vh;
+  }
+}
+@media(min-width: 1499px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.2vh;
+  }
+  #wb{
+    font-size: 2.7vh;
+  }
+  .name{
+    font-size: 2.5vh;
+  }
+}
+
+
 @media(min-width: 1562px){
   .junior-team-text-col,
   .senior-team-text-col{
     font-size: 3.4vh;
   }
-  
-
+}
+@media(min-width: 1629px){
+  .junior-team-text-col,
+  .senior-team-text-col{
+    font-size: 3.4vh;
+  }
+  #wb{
+    font-size: 2.8vh;
+  }
+  .name{
+    font-size: 2.4vh;
+  }
+}
+.col2{
+  padding-bottom: 5vh;
 }
